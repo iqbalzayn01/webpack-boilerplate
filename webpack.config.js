@@ -7,6 +7,11 @@ module.exports = {
         main: './src/index.js',
         vendor: './src/vendor.js',
     },
+    optimization: {
+        splitChunks: {
+          chunks: 'all',
+        },
+    },
     plugins: [
         new HtmlWebpackPlugin({
             template: './src/template.html',
