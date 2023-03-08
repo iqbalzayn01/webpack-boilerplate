@@ -5,7 +5,10 @@ const MiniCssExtractPlugin = require("mini-css-extract-plugin");
 module.exports = {
     entry: {
         main: './src/index.js',
+<<<<<<< HEAD
         vendor: './src/vendor.js',
+=======
+>>>>>>> 7d9d59d (update webpack)
     },
     optimization: {
         splitChunks: {
@@ -14,7 +17,11 @@ module.exports = {
     },
     plugins: [
         new HtmlWebpackPlugin({
+<<<<<<< HEAD
             template: './src/template.html',
+=======
+            template: './src/index.html',
+>>>>>>> 7d9d59d (update webpack)
         }),
     ],
     devtool: false,

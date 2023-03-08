@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 require('./vendor.js');
 import css from './style.scss';
 import { run } from './app/app.js';
@@ -10,5 +11,8 @@ const calculatorService = new CalculatorService();
 const jokesService = new JokesService();
 
 run(alertService, calculatorService, jokesService);
+=======
+console.log("Testing!");
+>>>>>>> 7d9d59d (update webpack)
 
 
